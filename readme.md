@@ -1,14 +1,6 @@
 # MoneyPilot — Inbox-Based Claims Personalization
 
 **A working prototype that replaces a generic eligibility quiz with a claims funnel personalized from a user's own inbox.**
-
-| | |
-|---|---|
-| **Status** | Working prototype — full funnel clickable end to end |
-| **Stack** | Vanilla HTML / CSS / JS, no build step, no backend |
-| **Data layer** | `claims.json` + `mock_emails.json` (static files, live-editable) |
-| **Screens** | 14, hash-routed, `index.html` → `flow.js` |
-
 ---
 
 ## 1. The problem
@@ -200,10 +192,10 @@ Carried forward as documented limitations rather than silently fixed, per this p
 | File | Purpose |
 |---|---|
 | `app.js` | Pure engine: keyword classifier, scoring formula, reason-string generation, card-rendering primitive, JSON data loader. No screen/routing logic. |
-| `flow.js` | Product layer: hash router, in-memory funnel state, all 14 screen renderers, countdown timer, plan picker, dashboard. |
+| `flow.js` | Product layer: in-memory funnel state, all 14 screen renderers, countdown timer, plan picker, dashboard. |
 | `index.html` | Thin shell — one `#app` mount point, loads `app.js` then `flow.js`. |
 | `styles.css` | All visual styling, incl. brand color tokens and the confidence-pill system. |
-| `claims.json` / `mock_emails.json` | The entire data layer — see §5. |
+| `claims.json` / `mock_emails.json` | The entire data layer |
 | `algorithm_spec.md` | Source of truth for the classifier/scoring formula — do not improvise variations without flagging the change. |
 | `ui_spec.md` | Original claims-feed layout spec (card anatomy, pill states, brand tokens). |
 | `screenshots/` | Reference screenshots used in this README. |
@@ -219,20 +211,6 @@ python3 -m http.server 8765
 ```
 
 A real HTTP server is required — `fetch()` of local JSON files is blocked under `file://` in most browsers.
-
----
-
-## 8. Out of scope / simulated
-
-Explicitly not real in this build, each flagged in-app rather than silently faked:
-
-| Thing | What actually happens |
-|---|---|
-| Real inbox access | None. Runs entirely against `mock_emails.json`. "Continue with Google" uses the standard Google button branding but never shows a real or fake login form — it loads the mock dataset after a short delay. |
-| LLM fallback classifier | Stubbed. Unclassified subjects are labeled `unclassified` and shown at Low tier rather than sent to a real model. |
-| PDF claim filing | Cosmetic mock only, with fictional case numbers and a visible "not a real legal filing" watermark. |
-| Payment processing | None anywhere in the plan picker — confirmed via an on-screen toast, no charge is ever made. |
-| The `/dashboard` claim statuses | Illustrative (round-robin assigned), since there's no real filing pipeline to report actual status from. |
 
 ---
 
