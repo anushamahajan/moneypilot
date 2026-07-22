@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "brand": "Netflix",
+    "type": "welcome",
+    "subject": "Welcome to Netflix",
+    "sender": "signup@netflix.com",
+    "date": "2022-01-15",
+    "body": "Hi there, welcome to Netflix! Your account is all set up and ready to go. Start watching thousands of movies and TV shows anytime, anywhere. Your first payment will be charged on Feb 15, 2022. Enjoy the show! - The Netflix Team"
+  },
+  {
+    "id": 2,
+    "brand": "Netflix",
+    "type": "receipt",
+    "subject": "Your Netflix bill for January",
+    "sender": "billing@netflix.com",
+    "date": "2022-02-15",
+    "body": "Your Netflix payment of $15.49 for the Standard plan was successfully processed on Feb 15, 2022. Payment method: Visa ending in 4021. Thanks for being a Netflix member. View your billing details in your account settings."
+  },
+  {
+    "id": 3,
+    "brand": "Netflix",
+    "type": "price_increase",
+    "subject": "Your plan price is changing",
+    "sender": "info@netflix.com",
+    "date": "2023-06-01",
+    "body": "Starting July 1, 2023, the price of your Standard plan will increase from $15.49 to $16.99 per month. This helps us bring you a wider variety of TV shows and movies. No action is needed, your membership will continue uninterrupted."
+  },
+  {
+    "id": 4,
+    "brand": "Netflix",
+    "type": "payment_confirmation",
+    "subject": "Payment confirmed for your account",
+    "sender": "billing@netflix.com",
+    "date": "2023-09-12",
+    "body": "This confirms your Netflix payment of $16.99 was processed on Sep 12, 2023 for the Standard plan. Payment method: Visa ending in 4021. Questions about your bill? Visit help.netflix.com."
+  },
+  {
+    "id": 5,
+    "brand": "Netflix",
+    "type": "cancellation",
+    "subject": "We've cancelled your membership",
+    "sender": "info@netflix.com",
+    "date": "2024-01-03",
+    "body": "Your Netflix membership has been cancelled as requested. You'll continue to have access until the end of your current billing period on Jan 15, 2024. We're sorry to see you go. Come back anytime, your favorites will be waiting."
+  },
+  {
+    "id": 6,
+    "brand": "Spotify",
+    "type": "welcome",
+    "subject": "Welcome to Spotify Premium",
+    "sender": "no-reply@spotify.com",
+    "date": "2021-03-03",
+    "body": "Welcome to Premium! You now have ad-free listening, offline downloads, and unlimited skips. Your subscription is $9.99/month, billed starting today. Open the app and start listening."
+  },
+  {
+    "id": 7,
+    "brand": "Spotify",
+    "type": "receipt",
+    "subject": "Your Spotify Premium receipt",
+    "sender": "payments@spotify.com",
+    "date": "2021-04-03",
+    "body": "Receipt for your Spotify Premium subscription. Amount charged: $9.99. Billing date: Apr 3, 2021. Payment method: Mastercard ending in 7742. Thanks for being a Premium subscriber."
+  },
+  {
+    "id": 8,
+    "brand": "Spotify",
+    "type": "renewal",
+    "subject": "Your Premium plan renews next week",
+    "sender": "no-reply@spotify.com",
+    "date": "2022-05-03",
+    "body": "Just a heads up, your Spotify Premium subscription will automatically renew on May 10, 2022 for $9.99. No action needed if you'd like to continue enjoying ad-free music. Manage your subscription anytime in account settings."
+  },
+  {
+    "id": 9,
+    "brand": "Spotify",
+    "type": "winback",
+    "subject": "Still miss the music? Come back",
+    "sender": "offers@spotify.com",
+    "date": "2023-11-10",
+    "body": "It's been a while since you used Premium. Come back today and get 2 months for $0.99. Unlimited skips, offline listening, and no ads are waiting for you. Offer expires soon."
+  },
+  {
+    "id": 10,
+    "brand": "Peloton",
+    "type": "abandoned_cart",
+    "subject": "Complete your Peloton App purchase",
+    "sender": "cart@onepeloton.com",
+    "date": "2023-01-20",
+    "body": "You left the Peloton App membership in your cart. Complete your purchase today and get access to thousands of classes across strength, cycling, yoga, and more. Your cart will be saved for 48 hours."
+  },
+  {
+    "id": 11,
+    "brand": "Peloton",
+    "type": "promo",
+    "subject": "20% off Peloton App membership",
+    "sender": "offers@onepeloton.com",
+    "date": "2023-02-14",
+    "body": "For a limited time, get 20% off your first year of the Peloton App. No equipment needed, just your phone. Try classes led by world-class instructors. Offer ends this week."
+  },
+  {
+    "id": 12,
+    "brand": "Peloton",
+    "type": "receipt",
+    "subject": "Your Peloton App subscription is confirmed",
+    "sender": "billing@onepeloton.com",
+    "date": "2023-03-05",
+    "body": "Your Peloton App membership is confirmed. Amount charged: $12.99. Billing cycle: monthly. Payment method: Visa ending in 9013. Welcome to the Peloton community."
+  },
+  {
+    "id": 13,
+    "brand": "Peloton",
+    "type": "renewal",
+    "subject": "Your annual renewal receipt",
+    "sender": "billing@onepeloton.com",
+    "date": "2024-04-05",
+    "body": "Your Peloton App membership renewed for another year. Amount charged: $155.88. Billing date: Apr 5, 2024. Payment method: Visa ending in 9013. Thanks for being a member."
+  },
+  {
+    "id": 14,
+    "brand": "Amazon Prime",
+    "type": "welcome",
+    "subject": "Welcome to Prime",
+    "sender": "prime@amazon.com",
+    "date": "2020-06-10",
+    "body": "Welcome to Prime! Enjoy fast, free shipping, Prime Video, Prime Music, and more. Your membership is active starting today. Explore everything Prime has to offer in your account."
+  },
+  {
+    "id": 15,
+    "brand": "Amazon Prime",
+    "type": "renewal",
+    "subject": "Your membership has renewed",
+    "sender": "prime@amazon.com",
+    "date": "2023-06-10",
+    "body": "Your Amazon Prime membership has renewed for another year. Amount charged: $139.00. Payment method: Visa ending in 5521. Your benefits continue uninterrupted."
+  },
+  {
+    "id": 16,
+    "brand": "Amazon Prime",
+    "type": "promo",
+    "subject": "New shows just for you on Prime Video",
+    "sender": "prime-video@amazon.com",
+    "date": "2023-08-22",
+    "body": "Check out what's new on Prime Video this month. New movies and original series are streaming now, included with your Prime membership. Start watching tonight."
+  },
+  {
+    "id": 17,
+    "brand": "Amazon Prime",
+    "type": "reminder",
+    "subject": "Your membership renews soon",
+    "sender": "prime@amazon.com",
+    "date": "2024-05-15",
+    "body": "Your Amazon Prime membership will renew automatically on Jun 15, 2024 for $139.00. Update your payment method or manage your subscription anytime in Your Account."
+  },
+  {
+    "id": 18,
+    "brand": "Planet Fitness",
+    "type": "welcome",
+    "subject": "Thanks for joining Planet Fitness",
+    "sender": "welcome@planetfitness.com",
+    "date": "2022-07-01",
+    "body": "Welcome to the Judgement Free Zone! Your membership at the Rohini location is now active. Your monthly fee of $10 will be charged starting Aug 1, 2022. See you at the gym."
+  },
+  {
+    "id": 19,
+    "brand": "Planet Fitness",
+    "type": "receipt",
+    "subject": "Your monthly payment receipt",
+    "sender": "billing@planetfitness.com",
+    "date": "2022-08-01",
+    "body": "Your Planet Fitness monthly membership fee of $10.00 was charged on Aug 1, 2022. Payment method: debit card ending in 3390. Thanks for being a member."
+  },
+  {
+    "id": 20,
+    "brand": "Planet Fitness",
+    "type": "cancellation",
+    "subject": "We're sorry to see you go",
+    "sender": "member-services@planetfitness.com",
+    "date": "2023-02-15",
+    "body": "Your Planet Fitness membership has been cancelled effective Feb 15, 2023. No further charges will be made. We hope to see you back in the Judgement Free Zone someday."
+  },
+  {
+    "id": 21,
+    "brand": "Adobe Creative Cloud",
+    "type": "trial_start",
+    "subject": "Welcome to Creative Cloud, start your trial",
+    "sender": "no-reply@adobe.com",
+    "date": "2023-10-10",
+    "body": "Your 7-day free trial of Adobe Creative Cloud has started. Access Photoshop, Illustrator, Premiere Pro, and more. Your trial ends Oct 17, 2023, after which your card will be charged $54.99/month unless cancelled."
+  },
+  {
+    "id": 22,
+    "brand": "Adobe Creative Cloud",
+    "type": "trial_reminder",
+    "subject": "Your free trial ends in 3 days",
+    "sender": "no-reply@adobe.com",
+    "date": "2023-10-14",
+    "body": "Your Creative Cloud free trial ends in 3 days on Oct 17, 2023. After that, your subscription will continue at $54.99/month. Cancel anytime before the trial ends to avoid being charged."
+  },
+  {
+    "id": 23,
+    "brand": "Adobe Creative Cloud",
+    "type": "receipt",
+    "subject": "Your Creative Cloud payment receipt",
+    "sender": "payments@adobe.com",
+    "date": "2023-11-17",
+    "body": "Your Adobe Creative Cloud subscription payment of $54.99 was processed on Nov 17, 2023. Payment method: Mastercard ending in 6602. Manage your plan anytime in your Adobe account."
+  },
+  {
+    "id": 24,
+    "brand": "Adobe Creative Cloud",
+    "type": "unsubscribe_marketing",
+    "subject": "You've unsubscribed from Adobe emails",
+    "sender": "marketing@adobe.com",
+    "date": "2023-12-05",
+    "body": "You've been unsubscribed from Adobe marketing emails. Note this does not affect your active Creative Cloud subscription or billing. You'll still receive account and billing related emails."
+  },
+  {
+    "id": 25,
+    "brand": "Amazon Prime",
+    "type": "receipt",
+    "subject": "Your Amazon Prime membership fee receipt",
+    "sender": "prime@amazon.com",
+    "date": "2026-02-15"
+  },
+  {
+    "id": 26,
+    "brand": "Amazon Prime",
+    "type": "receipt",
+    "subject": "Your Amazon Prime membership fee receipt",
+    "sender": "prime@amazon.com",
+    "date": "2026-03-15"
+  },
+  {
+    "id": 27,
+    "brand": "Amazon Prime",
+    "type": "receipt",
+    "subject": "Your Amazon Prime membership fee receipt",
+    "sender": "prime@amazon.com",
+    "date": "2026-04-15"
+  },
+  {
+    "id": 28,
+    "brand": "Amazon Prime",
+    "type": "receipt",
+    "subject": "Your Amazon Prime membership fee receipt",
+    "sender": "prime@amazon.com",
+    "date": "2026-05-15"
+  },
+  {
+    "id": 29,
+    "brand": "Amazon Prime",
+    "type": "renewal",
+    "subject": "Your Amazon Prime membership has renewed",
+    "sender": "prime@amazon.com",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 30,
+    "brand": "Peloton",
+    "type": "receipt",
+    "subject": "Your Peloton App payment receipt",
+    "sender": "billing@onepeloton.com",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 31,
+    "brand": "Peloton",
+    "type": "receipt",
+    "subject": "Your Peloton App payment receipt",
+    "sender": "billing@onepeloton.com",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 32,
+    "brand": "Adobe Creative Cloud",
+    "type": "receipt",
+    "subject": "Your Creative Cloud payment receipt",
+    "sender": "payments@adobe.com",
+    "date": "2026-04-17"
+  },
+  {
+    "id": 33,
+    "brand": "Adobe Creative Cloud",
+    "type": "receipt",
+    "subject": "Your Creative Cloud payment receipt",
+    "sender": "payments@adobe.com",
+    "date": "2026-05-17"
+  },
+  {
+    "id": 34,
+    "brand": "Adobe Creative Cloud",
+    "type": "receipt",
+    "subject": "Your Creative Cloud payment receipt",
+    "sender": "payments@adobe.com",
+    "date": "2026-06-17"
+  }
+]

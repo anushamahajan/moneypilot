@@ -1,0 +1,80 @@
+[
+  {
+    "claim_id": "netflix_price_increase_2023",
+    "brand": "Netflix",
+    "sender_domains": [
+      "netflix.com"
+    ],
+    "title": "Netflix price-increase settlement",
+    "estimated_payout": "$25 to $60",
+    "eligibility_window": {
+      "start": "2021-01-01",
+      "end": "2023-12-31"
+    }
+  },
+  {
+    "claim_id": "spotify_premium_billing_claim",
+    "brand": "Spotify",
+    "sender_domains": [
+      "spotify.com"
+    ],
+    "title": "Spotify Premium billing claim",
+    "estimated_payout": "$5 to $15",
+    "eligibility_window": {
+      "start": "2020-01-01",
+      "end": "2022-12-31"
+    }
+  },
+  {
+    "claim_id": "peloton_app_membership_claim",
+    "brand": "Peloton",
+    "sender_domains": [
+      "onepeloton.com"
+    ],
+    "title": "Peloton App membership claim",
+    "estimated_payout": "$10 to $30",
+    "eligibility_window": {
+      "start": "2022-06-01",
+      "end": "2026-12-31"
+    }
+  },
+  {
+    "claim_id": "amazon_prime_membership_claim",
+    "brand": "Amazon Prime",
+    "sender_domains": [
+      "amazon.com"
+    ],
+    "title": "Amazon Prime membership claim",
+    "estimated_payout": "$15 to $40",
+    "eligibility_window": {
+      "start": "2019-01-01",
+      "end": "2026-12-31"
+    }
+  },
+  {
+    "claim_id": "planet_fitness_membership_claim",
+    "brand": "Planet Fitness",
+    "sender_domains": [
+      "planetfitness.com"
+    ],
+    "title": "Planet Fitness membership fee claim",
+    "estimated_payout": "$5 to $20",
+    "eligibility_window": {
+      "start": "2021-06-01",
+      "end": "2023-01-01"
+    }
+  },
+  {
+    "claim_id": "adobe_creative_cloud_claim",
+    "brand": "Adobe Creative Cloud",
+    "sender_domains": [
+      "adobe.com"
+    ],
+    "title": "Adobe Creative Cloud auto-renewal claim",
+    "estimated_payout": "$10 to $25",
+    "eligibility_window": {
+      "start": "2022-01-01",
+      "end": "2026-12-31"
+    }
+  }
+]
